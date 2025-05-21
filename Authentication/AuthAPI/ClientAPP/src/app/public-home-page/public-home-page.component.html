@@ -1,0 +1,18 @@
+
+<div class="header-actions">
+  <span class="shareText">From Your Kitchen to Everyone’s Table – Share Now</span>
+  <button mat-raised-button color="warn" (click)="togglePostForm()">Add Recipe</button>
+</div>
+
+<hr><br>
+
+<div class="homeMain">
+
+  <app-table 
+    [tableData]="AllRecipes"
+    [columnKeys]="['id', 'title', 'description', 'category', 'action']"
+    (detailsClick)="getDetails($event)"
+    (dataChanged)="getAllData()">
+  </app-table>
+
+</div>

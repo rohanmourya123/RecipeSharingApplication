@@ -1,0 +1,70 @@
+<app-card [title]="'Post a New Recipe'">
+  <form [formGroup]="recipeForm" (ngSubmit)="onSubmit()" class="recipe-form">
+
+    <!-- Render text fields -->
+    <div *ngFor="let field of Fields">
+      <app-form-field [control]="getControl(field.name)" [label]="field.name" [placeholder]="field.placeholder"
+        [type]="field.type">
+      </app-form-field>
+    </div>
+
+    <!-- File Upload -->
+    <div style="margin-top: 1rem;">
+      <mat-label>Upload Image</mat-label>
+      <input type="file" (change)="onFileSelected($event)" accept="image/*" />
+      <p *ngIf="selectedFile">Selected: {{ selectedFile!.name }}</p>
+    </div>
+
+
+    <!-- Category dropdown -->
+    <mat-form-field appearance="outline" style="width: 100%; margin-top: 16px;">
+      <mat-label>Category</mat-label>
+      <mat-select [formControl]="getControl('category')">
+        <mat-option *ngFor="let cat of categories" [value]="cat">{{ cat }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <br>
+    <hr><br>
+
+    <!-- Ingredients Section -->
+    <h4>Ingredients</h4>
+    <div *ngFor="let ing of ingredientControl; let i = index" class="dynamic-field">
+      <app-form-field [control]="ing" [label]="'Ingredient ' + (i + 1)" placeholder="Enter ingredient..." type="text">
+      </app-form-field>
+      <br>
+
+      <mat-card-actions align="end">
+        <button mat-button type="button" color="warn" (click)="removeIngredient(i)">Remove</button>
+      </mat-card-actions>
+    </div>
+
+    <mat-card-actions align="end">
+      <button mat-raised-button type="button" color="primary" (click)="addIngredient()">+ Add Ingredient</button>
+    </mat-card-actions>
+
+    <br>
+    <hr><br>
+
+    <!-- Instructions Section -->
+    <h4>Instructions</h4>
+    <div *ngFor="let inst of instructionControl; let i = index" class="dynamic-field">
+      <app-form-field [control]="inst" [label]="'Instruction ' + (i + 1)" placeholder="Enter instruction..."
+        type="text">
+      </app-form-field>
+      <mat-card-actions align="end">
+        <button mat-button type="button" color="red" (click)="removeInstruction(i)">Remove</button>
+      </mat-card-actions>
+
+    </div>
+    <mat-card-actions align="end">
+      <button mat-raised-button type="button" color="info" (click)="addInstruction()">+ Add Instruction</button>
+    </mat-card-actions>
+    <br>
+
+    <mat-card-actions align="end">
+      <button mat-raised-button color="primary" type="submit">Submit Recipe</button>
+    </mat-card-actions>
+
+  </form>
+</app-card>

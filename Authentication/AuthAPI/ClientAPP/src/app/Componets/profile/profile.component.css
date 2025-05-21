@@ -1,0 +1,47 @@
+.example-container {
+  width: auto;
+  height: 500px;
+  margin: 10px;
+  border: 1px solid #555;
+  /* The background property is added to clearly distinguish the borders between drawer and main
+     content */
+  background: #eee;
+  text-align: center;
+
+  
+}
+
+.txts{
+    padding-top: 20px;
+}
+.side1{
+    width: 30%;
+}
+
+.txts1{
+    width: 50vw;
+    margin: auto;
+}
+
+.imgss{
+    /* background-color: blue; */
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+    background-image: url('../../../assets/images/account.png');
+    background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   border-radius: 50%;
+   overflow: hidden;
+    
+}
+
+.headerTxt{
+    font-size: 25px;
+    font-weight: 500;
+    
+}

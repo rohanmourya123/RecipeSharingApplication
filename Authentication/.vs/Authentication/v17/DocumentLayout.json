@@ -1,0 +1,990 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5EEB37-7C1A-4E00-8F91-766FBF33097B}|Services\\Services.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\services\\interfaces\\irecipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5EEB37-7C1A-4E00-8F91-766FBF33097B}|Services\\Services.csproj|solutionrelative:services\\interfaces\\irecipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5EEB37-7C1A-4E00-8F91-766FBF33097B}|Services\\Services.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\services\\implementations\\recipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5EEB37-7C1A-4E00-8F91-766FBF33097B}|Services\\Services.csproj|solutionrelative:services\\implementations\\recipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B34AC23-96CF-4919-A635-A28AB1941567}|AuthAPI\\AuthAPI.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\authapi\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B34AC23-96CF-4919-A635-A28AB1941567}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6BB8272-E834-4AE6-B4F0-2662F8BC64C3}|Model\\Model.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\model\\requestmodels\\recipesearchmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6BB8272-E834-4AE6-B4F0-2662F8BC64C3}|Model\\Model.csproj|solutionrelative:model\\requestmodels\\recipesearchmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6BB8272-E834-4AE6-B4F0-2662F8BC64C3}|Model\\Model.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\model\\requestmodels\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6BB8272-E834-4AE6-B4F0-2662F8BC64C3}|Model\\Model.csproj|solutionrelative:model\\requestmodels\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6BB8272-E834-4AE6-B4F0-2662F8BC64C3}|Model\\Model.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\model\\requestmodels\\recipemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6BB8272-E834-4AE6-B4F0-2662F8BC64C3}|Model\\Model.csproj|solutionrelative:model\\requestmodels\\recipemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B34AC23-96CF-4919-A635-A28AB1941567}|AuthAPI\\AuthAPI.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\authapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8B34AC23-96CF-4919-A635-A28AB1941567}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6BB8272-E834-4AE6-B4F0-2662F8BC64C3}|Model\\Model.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\model\\requestmodels\\ratingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6BB8272-E834-4AE6-B4F0-2662F8BC64C3}|Model\\Model.csproj|solutionrelative:model\\requestmodels\\ratingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B34AC23-96CF-4919-A635-A28AB1941567}|AuthAPI\\AuthAPI.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\authapi\\controllers\\ratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B34AC23-96CF-4919-A635-A28AB1941567}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\controllers\\ratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B34AC23-96CF-4919-A635-A28AB1941567}|AuthAPI\\AuthAPI.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\authapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8B34AC23-96CF-4919-A635-A28AB1941567}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B34AC23-96CF-4919-A635-A28AB1941567}|AuthAPI\\AuthAPI.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\authapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B34AC23-96CF-4919-A635-A28AB1941567}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B34AC23-96CF-4919-A635-A28AB1941567}|AuthAPI\\AuthAPI.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\authapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B34AC23-96CF-4919-A635-A28AB1941567}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6BB8272-E834-4AE6-B4F0-2662F8BC64C3}|Model\\Model.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\model\\requestmodels\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6BB8272-E834-4AE6-B4F0-2662F8BC64C3}|Model\\Model.csproj|solutionrelative:model\\requestmodels\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5EEB37-7C1A-4E00-8F91-766FBF33097B}|Services\\Services.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5EEB37-7C1A-4E00-8F91-766FBF33097B}|Services\\Services.csproj|solutionrelative:services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5EEB37-7C1A-4E00-8F91-766FBF33097B}|Services\\Services.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\services\\implementations\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5EEB37-7C1A-4E00-8F91-766FBF33097B}|Services\\Services.csproj|solutionrelative:services\\implementations\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B34AC23-96CF-4919-A635-A28AB1941567}|AuthAPI\\AuthAPI.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\authapi\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B34AC23-96CF-4919-A635-A28AB1941567}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B34AC23-96CF-4919-A635-A28AB1941567}|AuthAPI\\AuthAPI.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\authapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B34AC23-96CF-4919-A635-A28AB1941567}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5EEB37-7C1A-4E00-8F91-766FBF33097B}|Services\\Services.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\services\\implementations\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5EEB37-7C1A-4E00-8F91-766FBF33097B}|Services\\Services.csproj|solutionrelative:services\\implementations\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6BB8272-E834-4AE6-B4F0-2662F8BC64C3}|Model\\Model.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\model\\requestmodels\\commentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6BB8272-E834-4AE6-B4F0-2662F8BC64C3}|Model\\Model.csproj|solutionrelative:model\\requestmodels\\commentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5EEB37-7C1A-4E00-8F91-766FBF33097B}|Services\\Services.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5EEB37-7C1A-4E00-8F91-766FBF33097B}|Services\\Services.csproj|solutionrelative:services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6BB8272-E834-4AE6-B4F0-2662F8BC64C3}|Model\\Model.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\model\\requestmodels\\ingredientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6BB8272-E834-4AE6-B4F0-2662F8BC64C3}|Model\\Model.csproj|solutionrelative:model\\requestmodels\\ingredientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6BB8272-E834-4AE6-B4F0-2662F8BC64C3}|Model\\Model.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\model\\requestmodels\\instructionsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6BB8272-E834-4AE6-B4F0-2662F8BC64C3}|Model\\Model.csproj|solutionrelative:model\\requestmodels\\instructionsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6BB8272-E834-4AE6-B4F0-2662F8BC64C3}|Model\\Model.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\model\\requestmodels\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6BB8272-E834-4AE6-B4F0-2662F8BC64C3}|Model\\Model.csproj|solutionrelative:model\\requestmodels\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5EEB37-7C1A-4E00-8F91-766FBF33097B}|Services\\Services.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\services\\interfaces\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5EEB37-7C1A-4E00-8F91-766FBF33097B}|Services\\Services.csproj|solutionrelative:services\\interfaces\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5EEB37-7C1A-4E00-8F91-766FBF33097B}|Services\\Services.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\services\\interfaces\\iratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5EEB37-7C1A-4E00-8F91-766FBF33097B}|Services\\Services.csproj|solutionrelative:services\\interfaces\\iratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\data\\entities\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|solutionrelative:data\\entities\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\data\\entities\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|solutionrelative:data\\entities\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\data\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|solutionrelative:data\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\data\\entities\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|solutionrelative:data\\entities\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\data\\entities\\instruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|solutionrelative:data\\entities\\instruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|solutionrelative:data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6BB8272-E834-4AE6-B4F0-2662F8BC64C3}|Model\\Model.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\model\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6BB8272-E834-4AE6-B4F0-2662F8BC64C3}|Model\\Model.csproj|solutionrelative:model\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6BB8272-E834-4AE6-B4F0-2662F8BC64C3}|Model\\Model.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\model\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6BB8272-E834-4AE6-B4F0-2662F8BC64C3}|Model\\Model.csproj|solutionrelative:model\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\data\\repositories\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|solutionrelative:data\\repositories\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\data\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|solutionrelative:data\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5EEB37-7C1A-4E00-8F91-766FBF33097B}|Services\\Services.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BA5EEB37-7C1A-4E00-8F91-766FBF33097B}|Services\\Services.csproj|solutionrelative:services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B34AC23-96CF-4919-A635-A28AB1941567}|AuthAPI\\AuthAPI.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\authapi\\authapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8B34AC23-96CF-4919-A635-A28AB1941567}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\authapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\data\\configuration\\recipeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|solutionrelative:data\\configuration\\recipeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|solutionrelative:data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250513095814_initDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512152158_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512151814_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\data\\configuration\\ingredientconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|solutionrelative:data\\configuration\\ingredientconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512150411_MadeChangeInApplicationUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512141641_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\data\\configuration\\ratingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|solutionrelative:data\\configuration\\ratingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\data\\configuration\\instructionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|solutionrelative:data\\configuration\\instructionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\data\\configuration\\commentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|solutionrelative:data\\configuration\\commentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512141205_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512141001_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512135545_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512130625_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512130223_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512123752_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512121516_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512120529_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512111951_InitIdentitySchema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6BB8272-E834-4AE6-B4F0-2662F8BC64C3}|Model\\Model.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\model\\model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C6BB8272-E834-4AE6-B4F0-2662F8BC64C3}|Model\\Model.csproj|solutionrelative:model\\model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B34AC23-96CF-4919-A635-A28AB1941567}|AuthAPI\\AuthAPI.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\authapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B34AC23-96CF-4919-A635-A28AB1941567}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|c:\\users\\rohanmourya\\desktop\\assignment\\authentication\\data\\migrations\\20250517144933_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9EB19B0-D698-413D-8D7C-E3FAC2CBBDF9}|Data\\Data.csproj|solutionrelative:data\\migrations\\20250517144933_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IRecipeService.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Services\\Interfaces\\IRecipeService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IRecipeService.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Services\\Interfaces\\IRecipeService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IRecipeService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T05:35:22.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecipeController.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\AuthAPI\\Controllers\\RecipeController.cs",
+              "RelativeDocumentMoniker": "AuthAPI\\Controllers\\RecipeController.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\AuthAPI\\Controllers\\RecipeController.cs",
+              "RelativeToolTip": "AuthAPI\\Controllers\\RecipeController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T10:49:53.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RecipeSearchModel.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Model\\RequestModels\\RecipeSearchModel.cs",
+              "RelativeDocumentMoniker": "Model\\RequestModels\\RecipeSearchModel.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Model\\RequestModels\\RecipeSearchModel.cs",
+              "RelativeToolTip": "Model\\RequestModels\\RecipeSearchModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:33:01.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RecipeService.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Services\\Implementations\\RecipeService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\RecipeService.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Services\\Implementations\\RecipeService.cs",
+              "RelativeToolTip": "Services\\Implementations\\RecipeService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T05:39:34.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Model\\RequestModels\\PagedResult.cs",
+              "RelativeDocumentMoniker": "Model\\RequestModels\\PagedResult.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Model\\RequestModels\\PagedResult.cs",
+              "RelativeToolTip": "Model\\RequestModels\\PagedResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:42:18.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RecipeModel.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Model\\RequestModels\\RecipeModel.cs",
+              "RelativeDocumentMoniker": "Model\\RequestModels\\RecipeModel.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Model\\RequestModels\\RecipeModel.cs",
+              "RelativeToolTip": "Model\\RequestModels\\RecipeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T10:25:49.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\AuthAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "AuthAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\AuthAPI\\appsettings.json",
+              "RelativeToolTip": "AuthAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-11T12:14:30.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\AuthAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AuthAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\AuthAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AuthAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAACgAAADgIGlDVGkjwAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-20T14:16:14.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RatingsController.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\AuthAPI\\Controllers\\RatingsController.cs",
+              "RelativeDocumentMoniker": "AuthAPI\\Controllers\\RatingsController.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\AuthAPI\\Controllers\\RatingsController.cs",
+              "RelativeToolTip": "AuthAPI\\Controllers\\RatingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:00:25.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\AuthAPI\\Program.cs",
+              "RelativeDocumentMoniker": "AuthAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\AuthAPI\\Program.cs",
+              "RelativeToolTip": "AuthAPI\\Program.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T12:12:25.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RatingModel.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Model\\RequestModels\\RatingModel.cs",
+              "RelativeDocumentMoniker": "Model\\RequestModels\\RatingModel.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Model\\RequestModels\\RatingModel.cs",
+              "RelativeToolTip": "Model\\RequestModels\\RatingModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T10:25:09.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Model\\RequestModels\\UserModel.cs",
+              "RelativeDocumentMoniker": "Model\\RequestModels\\UserModel.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Model\\RequestModels\\UserModel.cs",
+              "RelativeToolTip": "Model\\RequestModels\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T04:14:09.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Services\\Implementations\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\UserService.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Services\\Implementations\\UserService.cs",
+              "RelativeToolTip": "Services\\Implementations\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T04:00:06.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\AuthAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AuthAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\AuthAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AuthAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAArwHUAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T12:59:02.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RatingService.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Services\\Implementations\\RatingService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\RatingService.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Services\\Implementations\\RatingService.cs",
+              "RelativeToolTip": "Services\\Implementations\\RatingService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAvwDEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T07:07:41.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\AuthAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "AuthAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\AuthAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "AuthAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswCUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T04:12:26.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CommentsController.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\AuthAPI\\Controllers\\CommentsController.cs",
+              "RelativeDocumentMoniker": "AuthAPI\\Controllers\\CommentsController.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\AuthAPI\\Controllers\\CommentsController.cs",
+              "RelativeToolTip": "AuthAPI\\Controllers\\CommentsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T14:58:44.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CommentModel.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Model\\RequestModels\\CommentModel.cs",
+              "RelativeDocumentMoniker": "Model\\RequestModels\\CommentModel.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Model\\RequestModels\\CommentModel.cs",
+              "RelativeToolTip": "Model\\RequestModels\\CommentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T10:25:32.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Services\\Implementations\\CommentService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\CommentService.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Services\\Implementations\\CommentService.cs",
+              "RelativeToolTip": "Services\\Implementations\\CommentService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAArwCwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T07:18:17.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T04:00:44.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IngredientModel.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Model\\RequestModels\\IngredientModel.cs",
+              "RelativeDocumentMoniker": "Model\\RequestModels\\IngredientModel.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Model\\RequestModels\\IngredientModel.cs",
+              "RelativeToolTip": "Model\\RequestModels\\IngredientModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T10:27:52.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "InstructionsModel.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Model\\RequestModels\\InstructionsModel.cs",
+              "RelativeDocumentMoniker": "Model\\RequestModels\\InstructionsModel.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Model\\RequestModels\\InstructionsModel.cs",
+              "RelativeToolTip": "Model\\RequestModels\\InstructionsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T10:27:11.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Model\\RequestModels\\Response.cs",
+              "RelativeDocumentMoniker": "Model\\RequestModels\\Response.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Model\\RequestModels\\Response.cs",
+              "RelativeToolTip": "Model\\RequestModels\\Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T11:06:29.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ICommentService.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Services\\Interfaces\\ICommentService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICommentService.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Services\\Interfaces\\ICommentService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ICommentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T07:17:05.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IRatingService.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Services\\Interfaces\\IRatingService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IRatingService.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Services\\Interfaces\\IRatingService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IRatingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T07:03:24.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Ingredient.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Entities\\Ingredient.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Ingredient.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Entities\\Ingredient.cs",
+              "RelativeToolTip": "Data\\Entities\\Ingredient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T09:13:30.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Instruction.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Entities\\Instruction.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Instruction.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Entities\\Instruction.cs",
+              "RelativeToolTip": "Data\\Entities\\Instruction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T09:16:25.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "Data\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T12:09:44.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Entities\\Recipe.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Recipe.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Entities\\Recipe.cs",
+              "RelativeToolTip": "Data\\Entities\\Recipe.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA6wBYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T09:12:12.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Entities\\Comment.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Comment.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Entities\\Comment.cs",
+              "RelativeToolTip": "Data\\Entities\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T09:35:49.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Entities\\Rating.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Rating.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Entities\\Rating.cs",
+              "RelativeToolTip": "Data\\Entities\\Rating.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAA+wAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T09:26:43.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T12:06:28.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Model\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Model\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Model\\LoginModel.cs",
+              "RelativeToolTip": "Model\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T13:36:45.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20250517144933_initDb.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Migrations\\20250517144933_initDb.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250517144933_initDb.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Migrations\\20250517144933_initDb.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250517144933_initDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T14:49:33.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Model\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "Model\\RegisterModel.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Model\\RegisterModel.cs",
+              "RelativeToolTip": "Model\\RegisterModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T13:09:28.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Repositories\\Implementations\\Repository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\Implementations\\Repository.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Repositories\\Implementations\\Repository.cs",
+              "RelativeToolTip": "Data\\Repositories\\Implementations\\Repository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvz0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T04:38:49.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Repositories\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Repositories\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T04:37:47.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Services.csproj",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Services\\Services.csproj",
+              "RelativeDocumentMoniker": "Services\\Services.csproj",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Services\\Services.csproj",
+              "RelativeToolTip": "Services\\Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-14T04:29:12.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AuthAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\AuthAPI\\AuthAPI.csproj",
+              "RelativeDocumentMoniker": "AuthAPI\\AuthAPI.csproj",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\AuthAPI\\AuthAPI.csproj",
+              "RelativeToolTip": "AuthAPI\\AuthAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-11T12:03:53.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RecipeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Configuration\\RecipeConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configuration\\RecipeConfiguration.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Configuration\\RecipeConfiguration.cs",
+              "RelativeToolTip": "Data\\Configuration\\RecipeConfiguration.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T11:37:04.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Data.csproj",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Data.csproj",
+              "RelativeDocumentMoniker": "Data\\Data.csproj",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Data.csproj",
+              "RelativeToolTip": "Data\\Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-11T12:05:33.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20250513095814_initDb.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250513095814_initDb.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250513095814_initDb.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250513095814_initDb.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250513095814_initDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:58:14.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20250512151814_init.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512151814_init.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512151814_init.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512151814_init.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512151814_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:18:14.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20250512152158_init.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512152158_init.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512152158_init.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512152158_init.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512152158_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:21:58.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IngredientConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Configuration\\IngredientConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configuration\\IngredientConfiguration.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Configuration\\IngredientConfiguration.cs",
+              "RelativeToolTip": "Data\\Configuration\\IngredientConfiguration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T11:38:24.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20250512150411_MadeChangeInApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512150411_MadeChangeInApplicationUser.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512150411_MadeChangeInApplicationUser.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512150411_MadeChangeInApplicationUser.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512150411_MadeChangeInApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:04:11.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20250512141641_Init.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512141641_Init.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512141641_Init.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512141641_Init.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512141641_Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T14:16:41.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "RatingConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Configuration\\RatingConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configuration\\RatingConfiguration.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Configuration\\RatingConfiguration.cs",
+              "RelativeToolTip": "Data\\Configuration\\RatingConfiguration.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T11:37:33.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "InstructionConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Configuration\\InstructionConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configuration\\InstructionConfiguration.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Configuration\\InstructionConfiguration.cs",
+              "RelativeToolTip": "Data\\Configuration\\InstructionConfiguration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T11:38:46.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CommentConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Configuration\\CommentConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configuration\\CommentConfiguration.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Data\\Configuration\\CommentConfiguration.cs",
+              "RelativeToolTip": "Data\\Configuration\\CommentConfiguration.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T11:38:02.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20250512141205_Init.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512141205_Init.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512141205_Init.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512141205_Init.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512141205_Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T14:12:05.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20250512141001_Init.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512141001_Init.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512141001_Init.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512141001_Init.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512141001_Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T14:10:01.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20250512135545_init.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512135545_init.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512135545_init.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512135545_init.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512135545_init.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T13:55:45.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20250512130625_Init.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512130625_Init.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512130625_Init.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512130625_Init.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512130625_Init.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T13:06:25.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20250512130223_Init.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512130223_Init.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512130223_Init.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512130223_Init.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512130223_Init.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T13:02:23.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20250512123752_Init.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512123752_Init.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512123752_Init.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512123752_Init.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512123752_Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T12:37:52.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20250512121516_Init.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512121516_Init.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512121516_Init.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512121516_Init.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512121516_Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T12:15:16.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "20250512120529_Init.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512120529_Init.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512120529_Init.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512120529_Init.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512120529_Init.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCgAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T12:05:29.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20250512111951_InitIdentitySchema.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512111951_InitIdentitySchema.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512111951_InitIdentitySchema.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\source\\repos\\Authentication\\Data\\Migrations\\20250512111951_InitIdentitySchema.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Authentication\\Data\\Migrations\\20250512111951_InitIdentitySchema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T11:19:52.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Model.csproj",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Model\\Model.csproj",
+              "RelativeDocumentMoniker": "Model\\Model.csproj",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\Model\\Model.csproj",
+              "RelativeToolTip": "Model\\Model.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-12T10:23:43.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\AuthAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "AuthAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\RohanMourya\\Desktop\\Assignment\\Authentication\\AuthAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "AuthAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T14:20:47.516Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

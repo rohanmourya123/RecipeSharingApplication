@@ -1,0 +1,26 @@
+<mat-drawer-container class="example-container">
+    <mat-drawer class="side1" mode="side" opened>
+        <div class="txts">
+            <div class="imgss"></div>
+            <h4>{{user?.name}}</h4>
+            <br>
+            <p>ID : {{UId.padEnd(4,"*")}}</p>
+            <p>Email : {{user?.email}}</p>
+            <!-- <h6>Name : {{user?.name}}</h6> -->
+        </div>
+    </mat-drawer>
+    <mat-drawer-content class="side2">
+        <div class="txts1">
+            <br>
+            <p class="headerTxt"> MY RECIPES </p>
+            <br>
+            <hr>
+            <br>
+            <app-table [tableData]="PostedRecipe" [columnKeys]="['id', 'title', 'description', 'category', 'action']"
+                (detailsClick)="getDetails($event)" (dataChanged)="getAllRecipesDataAndFilter!" [uid]="UId">
+
+            </app-table>
+
+        </div>
+    </mat-drawer-content>
+</mat-drawer-container>

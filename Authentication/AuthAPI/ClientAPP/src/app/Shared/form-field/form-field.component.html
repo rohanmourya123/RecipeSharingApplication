@@ -1,0 +1,27 @@
+<mat-form-field appearance="outline" class="full-width">
+  <mat-label>{{ label() }}</mat-label>
+  <input
+    matInput
+    [type]="type()"
+    [placeholder]="placeholder()"
+    [formControl]="control()!"
+  />
+
+
+  <mat-icon *ngIf="control()?.invalid && (control()?.dirty || control()?.touched)" matSuffix>
+    sentiment_very_dissatisfied
+  </mat-icon>
+
+
+  <mat-icon *ngIf="control()?.valid && (control()?.dirty || control()?.touched)" matSuffix>
+    sentiment_very_satisfied
+  </mat-icon>
+
+  <mat-error *ngIf="control()?.hasError(label()) && !control()?.hasError('required')">
+    Please enter a valid {{ label() }}
+  </mat-error>
+
+  <mat-error *ngIf="control()?.hasError('required')">
+    {{ label() }} is <strong>required</strong>
+  </mat-error>
+</mat-form-field>

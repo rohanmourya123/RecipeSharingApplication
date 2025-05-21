@@ -1,0 +1,36 @@
+<div class="app-container">
+  <mat-toolbar color="primary" class="toolbar">
+    <span class="logo">World of Recipes</span>
+    <a mat-button routerLink="/home" routerLinkActive="active">Home</a>
+
+    <span class="spacer"></span>
+
+    <ng-container *ngIf="!isLoggedIn(); else loggedInBlock">
+      <a mat-button routerLink="/login" class="auth-link">Login</a>
+      <a mat-button routerLink="/register" class="auth-link">SignUp for Free</a>
+    </ng-container>
+
+    <ng-template #loggedInBlock>
+      <!-- <button mat-button (click)="logout()" class="auth-link">Logout</button> -->
+
+      <mat-form-field  style=" width: auto; margin-top: 20px;">
+        <!-- <mat-icon>account_circle</mat-icon> -->
+      
+        <mat-select placeholder={{email}} (selectionChange)="onSelectionChange($event)">
+          <mat-option value="profile">My Profile</mat-option>
+          <mat-option value="logout">Logout</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </ng-template>
+  </mat-toolbar>
+
+
+  <hr>
+  <br>
+  <main class="content">
+    <router-outlet></router-outlet>
+  </main>
+  <br>
+  <br>
+  <hr>
+</div>

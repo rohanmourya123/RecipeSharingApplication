@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body { height: 100%; }
+body {
+     margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; 
+      /* background-color: rgba(204, 204, 204, 0.325); */ 
+      background: linear-gradient(to right, #aac7e4, #abdee4); 
+     padding: 20px;
+}
