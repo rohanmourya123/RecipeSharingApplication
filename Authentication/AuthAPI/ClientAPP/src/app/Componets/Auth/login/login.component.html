@@ -1,0 +1,15 @@
+<app-card [title]="titleName()">
+  <form [formGroup]="LoginForm" (ngSubmit)="onSubmit()">
+    <br>
+    <div *ngFor="let field of Fields">
+      <app-form-field [control]="getControl(field.name)" [label]="field.name" [placeholder]="field.placeholder"
+        [type]="field.type">
+      </app-form-field>
+    </div>
+
+    <button mat-raised-button color="primary" type="submit">
+      Login
+    </button>
+  </form>
+
+</app-card>

@@ -1,0 +1,72 @@
+<app-card [title]="Title()">
+  <div class="recipe-details">
+    <h2 style="text-align: center; color: rgb(122, 101, 186);">{{ recipe?.title }}</h2>
+    <br>
+
+    <p class="text1"><strong>Category:</strong> {{ recipe?.category }}</p>
+    <p class="text1"><strong>Description:</strong> {{ recipe?.description }}</p>
+    <p class="text1"><strong>Posted By:</strong> {{ recipe?.user?.name }}</p>
+
+    <br>
+    <hr>
+    <br>
+
+    <h3>Ingredients ({{ recipe?.ingredients?.length }}):</h3>
+    <ul class="ingredients-list">
+      <li *ngFor="let ing of recipe?.ingredients">{{ ing.name }}</li>
+    </ul>
+
+    <br>
+    <hr>
+    <br>
+
+    <h3>Instructions ({{ recipe?.instructions?.length }}):</h3>
+    <ul class="instructions-list">
+      <li *ngFor="let instruct of recipe?.instructions">
+        Step {{ instruct.order }}: {{ instruct.step }}
+      </li>
+    </ul>
+
+    <br>
+    <hr>
+    <br>
+
+    <h3 class="d-flex justify-between items-center mt-4 mb-2">
+      Total Comments: ({{ recipe?.comments?.length || 0 }})
+      Ratings: ({{ recipe?.ratings?.length || 0 }})
+      <!-- <button mat-raised-button color="warn" (click)="toggleForm()">{{ BtnTitle() }}</button> -->
+    </h3>
+
+    <div *ngIf="getRatingAndComments" class="mat-elevation-z2 p-3 rounded bg-light mb-3">
+      <div *ngFor="let field of Fields" class="mb-2">
+        <app-form-field [control]="getControl(field.name)" [label]="field.name" [placeholder]="field.placeholder"
+          [type]="field.type">
+        </app-form-field>
+      </div>
+
+      <div class="button-wrapper">
+        <button mat-raised-button color="primary" (click)="submitBtn(recipe!.id)">Submit</button>
+      </div>
+ 
+    </div>
+    <br>
+    <hr />
+    <br>
+    <app-table *ngIf="recipe?.comments?.length" [tableData]="recipe!.comments"
+      [columnKeys]="['id', 'content', 'user.name','createdAt' ]">
+    </app-table>
+    <br>
+    <hr>
+    <br>
+    <app-table *ngIf="recipe?.ratings?.length" [tableData]="recipe!.ratings"
+      [columnKeys]="['id', 'value', 'user.name']">
+    </app-table>
+
+    <!-- <app-table
+  *ngIf="recipe?.comments && recipe?.ratings"
+  [tableData]="[...recipe!.comments , ...recipe!.ratings]"
+  [columnKeys]="['id','comments.content' ,'ratings.value', 'user.name','createdAt']">
+</app-table> -->
+
+  </div>
+</app-card>

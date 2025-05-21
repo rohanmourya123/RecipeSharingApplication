@@ -1,0 +1,16 @@
+
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.auth-link {
+  margin-left: 10px; /* spacing between right-aligned buttons */
+}
+
+.content{
+   background-color: rgb(255, 255, 255);
+   padding: 20px;
+}
+
+

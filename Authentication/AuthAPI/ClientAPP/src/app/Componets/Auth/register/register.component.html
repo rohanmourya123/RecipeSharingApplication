@@ -1,0 +1,19 @@
+<div>
+    <app-card [title]="titleName()">
+        <form [formGroup]="RegisterForm" (ngSubmit)="onSubmit()">
+            <br>
+            <div *ngFor="let field of Fields">
+                <app-form-field [label]="field.name" [placeholder]="field.placeholder" [type]="field.type"
+                    [control]="getControl(field.name)">
+
+
+                </app-form-field>
+            </div>
+
+            <button mat-raised-button color="primary" type="submit">
+                Sign Up
+            </button>
+        </form>
+
+    </app-card>
+</div>
